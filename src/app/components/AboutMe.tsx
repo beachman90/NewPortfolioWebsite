@@ -11,7 +11,7 @@ export default function AboutMe() {
             <div className="flex justify-center lg:justify-start">
               <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-primary-light dark:border-primary-dark shadow-lg">
                 <Image
-                  src="/images/vinjerock.volleyball.jpg"
+                  src="/images/Vinjerock.volleyball.jpg"
                   alt="Jan Inge Kirsebom Strandman"
                   fill
                   sizes="256px"
