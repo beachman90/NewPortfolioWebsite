@@ -26,18 +26,20 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Project One",
-    description: "A brief description of your first project.",
-    longDescription: "This is a longer description of your first project. It can include more details about the technologies used, the problem it solves, and your role in developing it.",
+    title: "Porteføljeside",
+    description: "En relativt enkel porteføljeside for å vise hva jeg har gjort, og hvem jeg er.",
+    longDescription: `Dette er min personlige porteføljeside, bygget med Next.js, React, og Tailwind CSS. I dette prosjektet ville jeg eksperimentere med hvordan jeg kunne bruke AI-verktøy for å effektivisere utviklingsprosessen - rundt 95% av koden ble generert med hjelp av v0 (en AI-assistent) og Cursor (en AI-editor). Gjennom dette prosjektet lærte jeg mye om hvordan man effektivt kan bruke AI i utvikling, fra å kommunisere med AI-verktøyene til å tilpasse og debugge den genererte koden. 
+    Erfaringen ga meg innsikt i fremtidens utvikling og viste hvordan AI kan øke produktiviteten betydelig. Samtidig understreket det viktigheten av menneskelig vurdering i utviklingsprosessen. Denne porteføljesiden demonstrerer både mine tekniske ferdigheter og evnen til å utnytte moderne verktøy for effektiv webutvikling.`,
+    imageUrl: "/images/Portfolio.website.png",
     projectUrl: "#",
-    githubUrl: "#"
+    githubUrl: "https://github.com/beachman90/NewPortfolioWebsite"
   },
   {
     title: "Project Two",
     description: "A brief description of your second project.",
     longDescription: "This is a longer description of your second project. It can include more details about the technologies used, the problem it solves, and your role in developing it.",
     projectUrl: "#",
-    githubUrl: "#"
+    githubUrl: "#",
   },
   {
     title: "Project Three",
