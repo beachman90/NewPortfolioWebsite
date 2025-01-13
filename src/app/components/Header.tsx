@@ -26,7 +26,7 @@ export default function Header() {
     <header className="bg-background-light dark:bg-background-dark shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
-          <Link href="/" className="text-2xl font-bold text-text-DEFAULT dark:text-text-dark">
+          <Link href="/" className="text-2xl font-bold text-gray-800 dark:text-text-dark">
             Min Portfolio
           </Link>
           <nav className="hidden md:flex space-x-4 items-center">
@@ -76,7 +76,7 @@ export default function Header() {
 
 function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
-    <Link href={href} className="text-text-DEFAULT dark:text-text-dark hover:text-primary-DEFAULT dark:hover:text-primary-light transition-colors">
+    <Link href={href} className="text-gray-800 dark:text-text-dark hover:text-primary-DEFAULT dark:hover:text-primary-light transition-colors">
       {children}
     </Link>
   )
@@ -84,7 +84,7 @@ function NavLink({ href, children }: { href: string; children: React.ReactNode }
 
 function MobileNavLink({ href, onClick, children }: { href: string; onClick: () => void; children: React.ReactNode }) {
   return (
-    <Link href={href} className="text-text-DEFAULT dark:text-text-dark hover:text-primary-DEFAULT dark:hover:text-primary-light transition-colors py-2" onClick={onClick}>
+    <Link href={href} className="text-gray-800 dark:text-text-dark hover:text-primary-DEFAULT dark:hover:text-primary-light transition-colors py-2" onClick={onClick}>
       {children}
     </Link>
   )
