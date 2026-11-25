@@ -38,13 +38,17 @@ export default function Header() {
               onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
               className="ml-2"
             >
-              {theme === 'dark' ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+              {theme === 'dark' ? (
+                <Sun className="h-5 w-5 text-white-400" />
+              ) : (
+                <Moon className="h-5 w-5 text-gray-800" />
+              )}
             </Button>
           </nav>
           <Button
             variant="ghost"
             size="icon"
-            className="md:hidden"
+            className="md:hidden text-gray-800 dark:text-gray-100"
             onClick={toggleMenu}
           >
             {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
